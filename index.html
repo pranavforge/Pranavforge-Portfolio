@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pranavforge — aspiring software developer portfolio and projects.">
+  <title>Pranavforge | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">&lt;Pranav<span>forge</span>/&gt;</a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> Welcome to my portfolio</p>
+        <h1>Hi, I'm <span class="gradient-text">Pranavforge.</span></h1>
+        <h2>Aspiring Software Developer</h2>
+        <p class="hero-desc">I'm a Computer Science student exploring Python, databases, and web development. I enjoy turning practical ideas into working projects.</p>
+        <div class="actions"><a class="btn primary" href="#projects">Explore Projects <span aria-hidden="true">↗</span></a><a class="btn secondary" href="https://github.com/pranavforge" target="_blank" rel="noopener noreferrer">My GitHub</a></div>
+      </div>
+      <div class="hero-art" aria-hidden="true"><div class="code-card"><div class="window-dots"><i></i><i></i><i></i></div><pre><span class="comment">// building, learning, improving</span>
+<span class="purple">const</span> developer = {
+  name: <span class="green">"Pranavforge"</span>,
+  focus: <span class="green">"Python & Web"</span>,
+  mindset: <span class="green">"Keep learning"</span>
+};
+
+<span class="blue">build</span>(developer); <span class="cursor">▌</span></pre></div></div>
+    </section>
+    <section class="section alt" id="about"><div class="container"><p class="section-kicker">01 / ABOUT</p><h2>About <span>Me</span></h2><p class="section-intro">I'm a B.Tech Computer Science student who enjoys learning by building. My current focus is strengthening Python fundamentals, working with SQLite, and creating useful applications. This portfolio documents my progress and projects.</p></div></section>
+    <section class="section" id="skills"><div class="container"><p class="section-kicker">02 / SKILLS</p><h2>Technologies I'm <span>Learning</span></h2><div class="skill-grid"><div class="skill-card"><span class="skill-icon">Py</span><h3>Python</h3><p>Programming fundamentals</p></div><div class="skill-card"><span class="skill-icon">DB</span><h3>SQLite</h3><p>Database basics</p></div><div class="skill-card"><span class="skill-icon">📊</span><h3>Matplotlib</h3><p>Charts and reporting</p></div><div class="skill-card"><span class="skill-icon">&lt;/&gt;</span><h3>HTML / CSS / JS</h3><p>Web development basics</p></div><div class="skill-card"><span class="skill-icon">Git</span><h3>GitHub</h3><p>Project sharing</p></div></div></div></section>
+    <section class="section alt" id="projects"><div class="container"><p class="section-kicker">03 / PROJECTS</p><h2>Featured <span>Project</span></h2><article class="project-card"><div class="project-visual"><div class="visual-top">SMARTSERVE <span>● ● ●</span></div><div class="visual-body"><div class="mini-stat"><small>ORDER MANAGEMENT</small><strong>🍽️ SmartServe</strong></div><div class="mini-bars"><i></i><i></i><i></i><i></i><i></i><i></i></div><small>Food • Inventory • Sales</small></div></div><div class="project-info"><p class="tagline">PYTHON PROJECT</p><h3>SmartServe — Food Ordering & Inventory System</h3><p>A beginner-friendly restaurant management application featuring food ordering, billing, inventory tracking, SQLite storage, and sales visualizations.</p><div class="tags"><span>Python</span><span>SQLite</span><span>Matplotlib</span></div><a class="project-link" href="https://github.com/pranavforge/SmartServe-Food-Ordering-System" target="_blank" rel="noopener noreferrer">View project on GitHub ↗</a></div></article><p class="coming-soon">More projects coming as I learn and build.</p></div></section>
+    <section class="section" id="education"><div class="container"><p class="section-kicker">04 / EDUCATION</p><h2>My <span>Education</span></h2><div class="education-card"><div class="education-mark">🎓</div><div><h3>B.Tech — Computer Science & Engineering</h3><p>ICFAI University, Dehradun</p><small>Currently pursuing</small></div></div></div></section>
+    <section class="section alt" id="contact"><div class="container contact-section"><p class="section-kicker">05 / CONTACT</p><h2>Let's <span>Connect</span></h2><p>Interested in my work? You can explore my repositories and follow my progress on GitHub.</p><div class="actions center"><a class="btn primary" href="https://github.com/pranavforge" target="_blank" rel="noopener noreferrer">Visit GitHub ↗</a></div><p class="contact-note">Add your professional email and LinkedIn profile here when you're ready.</p></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-content"><span>&lt;Pranav<span class="accent">forge</span>/&gt;</span><small>© <span id="year"></span> Pranavforge. Built with HTML, CSS & JavaScript.</small></div></footer>
+</body>
+</html>
